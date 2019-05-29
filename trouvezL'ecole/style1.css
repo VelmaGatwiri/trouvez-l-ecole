@@ -1,0 +1,161 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color:;
+}
+.header{
+	font-family: 'Playfair Display', serif;
+	background-color:;
+	position: -webkit-sticky;
+	position:sticky;
+	top:0;
+	padding-left:30px;
+	font-size:16px;
+
+}
+.image{ 
+	width:100%;
+	height:600px;
+	background: url("blond-girl.jpg") no-repeat 40% 45%;
+	background-size:cover;
+}
+.gradient{
+	width:100%;
+	height:600px;
+	position:absolute;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+71,000000+100&0.47+0,0+100 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.47) 0%, rgba(0,0,0,0.14) 71%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.47) 0%,rgba(0,0,0,0.14) 71%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.47) 0%,rgba(0,0,0,0.14) 71%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#78000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+
+
+}
+
+.container{
+	width:960px;
+	height:600px;
+	position:relative;
+}
+nav{
+	text-align:center;
+	padding-left:75px;
+}
+nav ul{
+	padding:22px 16px;
+	position:absolute;
+	right:0;
+	float:right;
+	
+}
+nav ul li{
+	list-style:none;
+	float:left;
+	text-align:center;
+	color:#D3D3D3;
+	padding:22px 16px;
+	padding-top:15px;
+}
+nav ul li a{
+	text-decoration:none;
+	font-family:;
+	color:#D3D3D3;
+	font-weight:bold;
+    text-align:center;
+	padding:22px 16px;
+	padding-top:15px;
+	opacity:.8;
+}
+.myschool{
+	display:inline-block;
+	cursor:pointer;
+	padding:22px 16px;
+	color:#D3D3D3;
+	font-weight:bold;
+	opacity:.8;
+	padding-top:15px;
+	float:left;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color:#f9f9f9;
+	min-width: 120px;
+	box-shadow: 0px 8px 20px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	text-align:center;
+	height:auto;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration:none;
+  display: block;
+}
+.myschool:hover .dropdown-content {
+  display: block;
+ 
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.topic{
+	margin-left:0;
+	background-color:;
+	padding-left:10px;
+	position:relative;
+	top:150px;
+	font-family: 'Patua One', cursive;
+}
+.mainsection{
+	background-color:;
+	position:relative;
+	top:160px;
+	margin-top:30px;
+	line-height:55px;
+	padding-left:10px;
+}
+.button {
+  background-color:#A9A9A9; 
+  border: none;
+  border-radius:15px;
+  box-shadow:0 9px #fff1ff  ;
+  color: white;
+  padding: 10px 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 28px;
+  -webkit-transition-duration:0.4s;
+  transition-duration:0.4s;
+  float:center;
+  width:25%;
+}
+.button:hover{
+	background-color:#808080;
+	box-shadow:0 5px #C0C0C0;
+	transform:translateY(4px);
+}
+.slides{
+	width:100%;
+	height:20px;
+	background-size:contain, no repeat;
+}
+img{
+	width:100%;
+	height:350px;
+	background-size:contain, no repeat;
+	margin-top:;
+}
+.contacts{
+	height:auto;
+	width:100%;
+	background-color:;
+	overflow:hidden;
+	clear:both;
+	margin-top:350px;
+}
+

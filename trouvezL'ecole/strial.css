@@ -1,0 +1,62 @@
+body{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+	
+}
+.head{
+	height:40%;
+	width:100%;
+	float:right;
+	color:blue;
+	display:inline-block;
+	cursor:pointer;
+	}
+.logo{
+	float:left;
+	width:50%;
+}
+.myschool{
+	display:inline-block;
+	cursor:pointer;
+	padding-right:45px;
+	
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 100px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	text-align:center;
+}
+ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+ul li{
+	float:left;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration:none;
+  display: block;
+}
+.myschool:hover .dropdown-content {
+  display: block;
+  
+  
+  
+  
+  
+.footer{
+	text-align:center;
+	height:10%;
+	width:100%;
+	background-color:red;
+	clear:both;
+}

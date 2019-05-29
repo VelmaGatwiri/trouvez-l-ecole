@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		
+		<title>TLE</title>
+			<meta charset = "utf - 8" />
+					<link href="https://fonts.googleapis.com/css?family=Lateef|Lato|Lora|Playfair+Display|Source+Serif+Pro&display=swap" rel="stylesheet"> 
+					
+					<meta name="viewport" content="width=device-width, initial-scale=1">
+					<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+					<link rel="stylesheet" type="text/css" href="hiStyle.css">
+					
+	</head>
+	
+	<body>
+	<div class="nav">
+				
+		<ul>
+			<li><a href="homePage.html">Home</a></li>
+			
+			
+			<li><a href="ABHis.html">About Us</a></li>
+			
+			<div class="myschool">
+				<span>My Schools</span>
+				<div class="dropdown-content">
+					<li><a  href="#">Kenya</a></li>
+					<li><a  href="#">Tanzania</a></li>
+					<li><a  href="#">Uganda</a></li>
+				</div>
+			</div>
+			
+			<div class="myschool">
+				<span>Find a school</span>
+				<div class="dropdown-content">
+					<li><b><a  href="#">Apply Now!</a></b></li>
+				</div>
+			</div>
+			
+			<li><a  href="#">Contact us</a></li>
+			
+				</ul>
+			</div>
+			
+			<div class="container">
+					<h5 style="font-family:maiden orange; font-size:46px; color:#C0C0C0;"><center>ABOUT TROUVEZ L'ECOLE</center></h5>
+					
+					
+			<div class="main">
+			<h5 style="font-family:maiden orange; font-size:46px;"><center>TROUVEZ L'ECOLE</center></h5>
+
+		<p style="font-size:40px; word-spacing:25px;">
+			<i>Trouvez l'ecole</i> is a website that aims to bridge the gap between the student and their academic institution of choice. 
+			<br>
+			
+		</p>
+				</div>
+	
+		<div class="main">
+		
+		<p>
+			For many families in East Africa and around the globe, the current state
+			of education poses an important question of whether investing in a high cost institution for their child will result in them
+			acquiring quality education.<br>One such criteria of evaluating the standards of the schools is by knowing which schools have passed the 
+			rigorous standards required by both IAPS (at preparatory level) and the Council of International Schools or CIS.</br>
+		</p>
+		
+		</div>
+				
+			<div class="main">
+				<h5 style="font-family:maiden orange; font-size:40px;"> <center>WHY TROUVEZ L'ECOLE?</center></h5>
+				
+			<img src="questionmark.jpg" alt="question-mark sign" style="width:550px;height:250px;float:center;padding-left:10px;padding-top:10px;">
+		
+		</div>
+		
+			
+					
+		
+				<button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+			<button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">&#10095;</button>
+			</div>
+			
+			
+		<script>
+var slideIndex = 0;
+showDivs(slideIndex);
+
+function plusDivs(n){
+	showDivs(slideIndex +=n);
+}
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("main");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > x.length) {slideIndex = 1} 
+  x[slideIndex-1].style.display = "block"; 
+  
+}
+</script>
+
+		</body>
+</html>		
